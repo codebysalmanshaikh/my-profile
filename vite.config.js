@@ -4,5 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/', // important for Vercel and domain-based hosting
+  base: '/my-profile/',
+ // important for Vercel and domain-based hosting
 })
